@@ -1,0 +1,452 @@
+{
+    "id": "01aefa93-6044-4159-8358-7e91310aa05f",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level",
+        "borderWidth": 1080,
+        "borderHeight": 1920
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "e8bc7456-30af-43c7-ac74-ffd7a291392f",
+            "label": "bg",
+            "texture": {
+                "key": "panel"
+            },
+            "x": 540,
+            "y": 960
+        },
+        {
+            "type": "Image",
+            "id": "30271dc5-a8ce-4c4f-97c1-87bc714e4f89",
+            "label": "bottomBase",
+            "texture": {
+                "key": "bottomBase"
+            },
+            "x": 540,
+            "y": 1835,
+            "alpha": 0.8,
+            "alphaTopLeft": 0.8,
+            "alphaTopRight": 0.8,
+            "alphaBottomLeft": 0.8,
+            "alphaBottomRight": 0.8
+        },
+        {
+            "type": "Image",
+            "id": "3ae520c4-8cb1-44b0-8386-286e4cb02121",
+            "label": "ballCollector",
+            "scope": "CLASS",
+            "texture": {
+                "key": "ballCollector"
+            },
+            "x": 540,
+            "y": 1838,
+            "visible": false
+        },
+        {
+            "type": "Container",
+            "id": "e704cdf7-48fa-463a-afdb-87aa5efee63e",
+            "label": "pauseContainer",
+            "scope": "CLASS",
+            "y": -1220,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "28846304-310e-4007-9b10-2202f5cd37c2",
+                    "label": "pause_base",
+                    "texture": {
+                        "key": "pause-base"
+                    },
+                    "x": 540,
+                    "y": 960
+                },
+                {
+                    "type": "Image",
+                    "id": "a1a53536-010b-44a0-b2b3-761aabdc15b9",
+                    "label": "homeBtn",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "Home"
+                    },
+                    "x": 343,
+                    "y": 1138
+                },
+                {
+                    "type": "Image",
+                    "id": "cdf83c2a-d429-4d98-b65b-bea3465e4f51",
+                    "label": "playBtn",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "play"
+                    },
+                    "x": 737,
+                    "y": 1137
+                },
+                {
+                    "type": "Text",
+                    "id": "42633476-12e0-4fad-b9a1-651adab3a641",
+                    "label": "text_1",
+                    "x": 540,
+                    "y": 956,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "TAP PLAY TO CONTINUE",
+                    "align": "center",
+                    "fontFamily": "Square_rough",
+                    "fontSize": "40px"
+                },
+                {
+                    "type": "Text",
+                    "id": "272bb8b8-2409-4136-b424-dcb8f377e3af",
+                    "label": "pauseScoreText",
+                    "scope": "CLASS",
+                    "x": 540,
+                    "y": 1017,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "YOUR SCORE : 0",
+                    "align": "center",
+                    "fontFamily": "Square_rough",
+                    "fontSize": "40px"
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "10e081cd-18f8-4116-b2e1-bd3bfee23df9",
+            "label": "settingsContainer",
+            "scope": "CLASS",
+            "y": -1220,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "a7c382cf-df90-4d50-b075-0593e1c9962e",
+                    "label": "base",
+                    "texture": {
+                        "key": "base"
+                    },
+                    "x": 540,
+                    "y": 960
+                },
+                {
+                    "type": "Image",
+                    "id": "98dd27f7-1ea1-4289-8460-227ab093d04e",
+                    "label": "closeBtn",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "Close"
+                    },
+                    "x": 540,
+                    "y": 1144
+                },
+                {
+                    "type": "Image",
+                    "id": "9180b53c-48d4-44bb-b248-6406b1e86865",
+                    "label": "soundOnLogo",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "Sound_On_Icon"
+                    },
+                    "x": 260,
+                    "y": 950
+                },
+                {
+                    "type": "Image",
+                    "id": "1038dcb6-c4d7-412e-a3f4-b8fea19f4069",
+                    "label": "musicOnLogo",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "music_on_Icon"
+                    },
+                    "x": 630,
+                    "y": 950
+                },
+                {
+                    "type": "Image",
+                    "id": "9211ffe2-a439-44ad-8802-ac8c68796b7d",
+                    "label": "music_Sound_Bar_BASE",
+                    "texture": {
+                        "key": "Music&Sound_Bar_BASE"
+                    },
+                    "x": 353,
+                    "y": 1005
+                },
+                {
+                    "type": "Image",
+                    "id": "8d1130b1-f18d-4c46-a2f9-78318437a17d",
+                    "label": "music_Sound_Bar_BASE_1",
+                    "texture": {
+                        "key": "Music&Sound_Bar_BASE"
+                    },
+                    "x": 720,
+                    "y": 1005
+                },
+                {
+                    "type": "Image",
+                    "id": "cf734a98-bc7d-4a5e-9628-1f969924629f",
+                    "label": "sound",
+                    "texture": {
+                        "key": "sound"
+                    },
+                    "x": 370,
+                    "y": 950
+                },
+                {
+                    "type": "Image",
+                    "id": "8cce2f31-5a85-4c51-bd93-bea498206714",
+                    "label": "music",
+                    "texture": {
+                        "key": "music"
+                    },
+                    "x": 740,
+                    "y": 950
+                },
+                {
+                    "type": "Image",
+                    "id": "89050975-9131-4ef9-8ee1-34b2aa94323a",
+                    "label": "plus",
+                    "texture": {
+                        "key": "plus"
+                    },
+                    "x": 497,
+                    "y": 1003
+                },
+                {
+                    "type": "Image",
+                    "id": "30fc1bc8-82bf-4cd6-8df0-978103584ad3",
+                    "label": "plus_1",
+                    "texture": {
+                        "key": "plus"
+                    },
+                    "x": 867,
+                    "y": 1003
+                },
+                {
+                    "type": "Image",
+                    "id": "9c2f90e9-5b6c-402e-a0e4-f65f24e41604",
+                    "label": "minus",
+                    "texture": {
+                        "key": "minus"
+                    },
+                    "x": 208,
+                    "y": 1004
+                },
+                {
+                    "type": "Image",
+                    "id": "a9fe7755-3087-436d-91dd-80e729fc0636",
+                    "label": "minus_1",
+                    "texture": {
+                        "key": "minus"
+                    },
+                    "x": 574,
+                    "y": 1004
+                },
+                {
+                    "type": "Image",
+                    "id": "7a8905ba-0fb9-4d45-b0fd-80d5394166c7",
+                    "label": "soundLoadBar",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "bar"
+                    },
+                    "x": 232,
+                    "y": 986,
+                    "originX": 0,
+                    "originY": 0
+                },
+                {
+                    "type": "Image",
+                    "id": "67c07667-0fe2-4c95-9d39-deeb0ea6b510",
+                    "label": "musicLoadBar",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "bar"
+                    },
+                    "x": 600,
+                    "y": 986,
+                    "originX": 0,
+                    "originY": 0
+                },
+                {
+                    "type": "Image",
+                    "id": "6924f567-3581-412c-b7a0-cd1ce452d753",
+                    "label": "soundSlider",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "bar_button"
+                    },
+                    "x": 455,
+                    "y": 1005
+                },
+                {
+                    "type": "Image",
+                    "id": "c8348598-1f3f-4266-b922-3772e91eca47",
+                    "label": "musicSlider",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "bar_button"
+                    },
+                    "x": 822,
+                    "y": 1005
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "ce7832cd-0250-43aa-bea0-fe9240347f54",
+            "label": "score_Base",
+            "texture": {
+                "key": "Score_Base"
+            },
+            "x": 540,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "2bf5ecc3-4d7c-451c-85ea-035032e05c9b",
+            "label": "pauseButton",
+            "scope": "CLASS",
+            "texture": {
+                "key": "pause"
+            },
+            "x": 51,
+            "y": 62
+        },
+        {
+            "type": "Image",
+            "id": "c3bc7d42-6775-4d5f-9d36-6aa02defd16c",
+            "label": "settingsButton",
+            "scope": "CLASS",
+            "texture": {
+                "key": "setting"
+            },
+            "x": 1032,
+            "y": 62
+        },
+        {
+            "type": "Text",
+            "id": "0b7123e3-e6a3-4f2d-be9a-4391ffabb2e6",
+            "label": "ballsText",
+            "scope": "CLASS",
+            "x": 700,
+            "y": 65,
+            "originY": 0.5,
+            "text": "BALLS:-",
+            "fontFamily": "Square_rough",
+            "fontSize": "40px"
+        },
+        {
+            "type": "Container",
+            "id": "59decb9a-888a-42d8-ab69-dc7a72785d43",
+            "label": "gameOverContainer",
+            "scope": "CLASS",
+            "y": -1220,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "48505113-b73e-4807-81d4-2fc9c60d1bd0",
+                    "label": "base_1",
+                    "texture": {
+                        "key": "base_1"
+                    },
+                    "x": 540,
+                    "y": 960
+                },
+                {
+                    "type": "Image",
+                    "id": "0f3476d7-5787-4f59-8c5d-8362f35b3e9d",
+                    "label": "replayBtn",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "Replay"
+                    },
+                    "x": 539,
+                    "y": 1148
+                },
+                {
+                    "type": "Text",
+                    "id": "51011875-bdfd-4299-b8f7-a5a4f66fcf62",
+                    "label": "text_2",
+                    "x": 315,
+                    "y": 960,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "BEST SCORE",
+                    "fontFamily": "Square_rough",
+                    "fontSize": "40px"
+                },
+                {
+                    "type": "Text",
+                    "id": "f87c7948-4ab6-4a3d-bfed-281f1af6d99a",
+                    "label": "text",
+                    "x": 767,
+                    "y": 960,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "YOUR SCORE",
+                    "fontFamily": "Square_rough",
+                    "fontSize": "40px"
+                },
+                {
+                    "type": "Text",
+                    "id": "61b42824-21f9-48f5-867c-988d11cd6d5a",
+                    "label": "levelFailBest",
+                    "scope": "CLASS",
+                    "x": 310,
+                    "y": 1010,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "0",
+                    "fontFamily": "Square_rough",
+                    "fontSize": "40px"
+                },
+                {
+                    "type": "Text",
+                    "id": "29391e0a-538b-48c4-85e5-13d2901a5f2f",
+                    "label": "levelFailScore",
+                    "scope": "CLASS",
+                    "x": 780,
+                    "y": 1010,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "0",
+                    "fontFamily": "Square_rough",
+                    "fontSize": "40px"
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "37f4f19e-55f5-4cbb-8074-7464e6b0c081",
+            "label": "levelFailBg",
+            "scope": "CLASS",
+            "texture": {
+                "key": "panel"
+            },
+            "x": 540,
+            "y": 960,
+            "visible": false,
+            "alpha": 0.5,
+            "alphaTopLeft": 0.5,
+            "alphaTopRight": 0.5,
+            "alphaBottomLeft": 0.5,
+            "alphaBottomRight": 0.5
+        },
+        {
+            "type": "Container",
+            "id": "901cc924-2e16-45d3-8662-b3be51e3304d",
+            "label": "menuContainer",
+            "scope": "CLASS"
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

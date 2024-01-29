@@ -1,0 +1,65 @@
+{
+    "id": "0ff447ba-5657-4e0b-9341-0c5452eb3aef",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "GameOver",
+        "borderWidth": 1080,
+        "borderHeight": 1920
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "4d93ac20-aa2f-4b67-9b48-a62910be9ac0",
+            "label": "panel",
+            "texture": {
+                "key": "panel"
+            },
+            "x": 540,
+            "y": 960
+        },
+        {
+            "type": "Text",
+            "id": "d391255c-0e2a-44e2-9eeb-61e12fbcc7e5",
+            "label": "text_1",
+            "x": 540,
+            "y": 560,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Game Over",
+            "fontFamily": "Baskerville-Bold-02",
+            "fontSize": "120px",
+            "fontStyle": "bold"
+        },
+        {
+            "type": "Image",
+            "id": "e602dd48-755c-4e23-81a3-c32f06167fb4",
+            "label": "replayBtn",
+            "scope": "CLASS",
+            "texture": {
+                "key": "replay_btn-sheet0"
+            },
+            "x": 540,
+            "y": 1160
+        },
+        {
+            "type": "Image",
+            "id": "37477596-3fe8-4a68-aa5e-eaad384169c9",
+            "label": "homeBtn",
+            "scope": "CLASS",
+            "texture": {
+                "key": "butmain-sheet0"
+            },
+            "x": 540,
+            "y": 1260
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

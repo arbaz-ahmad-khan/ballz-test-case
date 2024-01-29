@@ -1,0 +1,285 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/images/ball.png",
+                "type": "image",
+                "key": "ball"
+            },
+            {
+                "url": "assets/images/Ball_Holder.png",
+                "type": "image",
+                "key": "Ball_Holder"
+            },
+            {
+                "url": "assets/images/ballCollector.png",
+                "type": "image",
+                "key": "ballCollector"
+            },
+            {
+                "url": "assets/images/ballRing.png",
+                "type": "image",
+                "key": "ballRing"
+            },
+            {
+                "url": "assets/images/settings/bar.png",
+                "type": "image",
+                "key": "bar"
+            },
+            {
+                "url": "assets/images/settings/bar_button.png",
+                "type": "image",
+                "key": "bar_button"
+            },
+            {
+                "url": "assets/images/settings/base.png",
+                "type": "image",
+                "key": "base"
+            },
+            {
+                "url": "assets/images/level Failed/base.png",
+                "type": "image",
+                "key": "base_1"
+            },
+            {
+                "url": [
+                    "assets/sounds/bg.mp3"
+                ],
+                "type": "audio",
+                "key": "bg"
+            },
+            {
+                "url": "assets/images/block.png",
+                "type": "image",
+                "key": "block"
+            },
+            {
+                "url": "assets/images/blocks/block-1.png",
+                "type": "image",
+                "key": "block-1"
+            },
+            {
+                "url": "assets/images/blocks/block-10.png",
+                "type": "image",
+                "key": "block-10"
+            },
+            {
+                "url": "assets/images/blocks/block-11.png",
+                "type": "image",
+                "key": "block-11"
+            },
+            {
+                "url": "assets/images/blocks/block-12.png",
+                "type": "image",
+                "key": "block-12"
+            },
+            {
+                "url": "assets/images/blocks/block-2.png",
+                "type": "image",
+                "key": "block-2"
+            },
+            {
+                "url": "assets/images/blocks/block-3.png",
+                "type": "image",
+                "key": "block-3"
+            },
+            {
+                "url": "assets/images/blocks/block-4.png",
+                "type": "image",
+                "key": "block-4"
+            },
+            {
+                "url": "assets/images/blocks/block-5.png",
+                "type": "image",
+                "key": "block-5"
+            },
+            {
+                "url": "assets/images/blocks/block-6.png",
+                "type": "image",
+                "key": "block-6"
+            },
+            {
+                "url": "assets/images/blocks/block-7.png",
+                "type": "image",
+                "key": "block-7"
+            },
+            {
+                "url": "assets/images/blocks/block-8.png",
+                "type": "image",
+                "key": "block-8"
+            },
+            {
+                "url": "assets/images/blocks/block-9.png",
+                "type": "image",
+                "key": "block-9"
+            },
+            {
+                "url": "assets/images/bottomBase.png",
+                "type": "image",
+                "key": "bottomBase"
+            },
+            {
+                "url": "assets/images/home/box1.png",
+                "type": "image",
+                "key": "box1"
+            },
+            {
+                "url": "assets/images/home/box2.png",
+                "type": "image",
+                "key": "box2"
+            },
+            {
+                "url": "assets/images/home/box3.png",
+                "type": "image",
+                "key": "box3"
+            },
+            {
+                "url": "assets/images/home/box4.png",
+                "type": "image",
+                "key": "box4"
+            },
+            {
+                "url": "assets/images/home/box5.png",
+                "type": "image",
+                "key": "box5"
+            },
+            {
+                "url": "assets/images/gameOver/butmain-sheet0.png",
+                "type": "image",
+                "key": "butmain-sheet0"
+            },
+            {
+                "url": "assets/images/settings/Close.png",
+                "type": "image",
+                "key": "Close"
+            },
+            {
+                "url": "assets/images/pause/continueBtn.png",
+                "type": "image",
+                "key": "continueBtn"
+            },
+            {
+                "url": "src/scripts/GameManager.js",
+                "type": "script",
+                "key": "GameManager"
+            },
+            {
+                "url": "assets/images/pause/Home.png",
+                "type": "image",
+                "key": "Home"
+            },
+            {
+                "url": "assets/images/settings/minus.png",
+                "type": "image",
+                "key": "minus"
+            },
+            {
+                "url": "assets/images/settings/music.png",
+                "type": "image",
+                "key": "music"
+            },
+            {
+                "url": "assets/images/settings/music_off_Icon.png",
+                "type": "image",
+                "key": "music_off_Icon"
+            },
+            {
+                "url": "assets/images/settings/music_on_Icon.png",
+                "type": "image",
+                "key": "music_on_Icon"
+            },
+            {
+                "url": "assets/images/settings/Music&Sound_Bar_BASE.png",
+                "type": "image",
+                "key": "Music&Sound_Bar_BASE"
+            },
+            {
+                "url": "assets/images/panel.png",
+                "type": "image",
+                "key": "panel"
+            },
+            {
+                "url": "assets/images/pause/pause.png",
+                "type": "image",
+                "key": "pause"
+            },
+            {
+                "url": "assets/images/pause/pause-base.png",
+                "type": "image",
+                "key": "pause-base"
+            },
+            {
+                "url": "assets/images/pause/play.png",
+                "type": "image",
+                "key": "play"
+            },
+            {
+                "url": "assets/images/home/playBtn.png",
+                "type": "image",
+                "key": "playBtn"
+            },
+            {
+                "url": "assets/images/settings/plus.png",
+                "type": "image",
+                "key": "plus"
+            },
+            {
+                "url": "assets/images/level Failed/Replay.png",
+                "type": "image",
+                "key": "Replay"
+            },
+            {
+                "url": "assets/images/gameOver/replay_btn-sheet0.png",
+                "type": "image",
+                "key": "replay_btn-sheet0"
+            },
+            {
+                "url": "assets/images/score/Score_Base.png",
+                "type": "image",
+                "key": "Score_Base"
+            },
+            {
+                "url": "assets/images/settings/setting.png",
+                "type": "image",
+                "key": "setting"
+            },
+            {
+                "url": "assets/images/settings/sound.png",
+                "type": "image",
+                "key": "sound"
+            },
+            {
+                "url": "assets/images/settings/Sound_Off_Icon.png",
+                "type": "image",
+                "key": "Sound_Off_Icon"
+            },
+            {
+                "url": "assets/images/settings/Sound_On_Icon.png",
+                "type": "image",
+                "key": "Sound_On_Icon"
+            },
+            {
+                "url": "src/scripts/SoundManager.js",
+                "type": "script",
+                "key": "SoundManager"
+            },
+            {
+                "url": "assets/images/tap.png",
+                "type": "image",
+                "key": "tap"
+            },
+            {
+                "url": "assets/images/trajectory.png",
+                "type": "image",
+                "key": "trajectory"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}
